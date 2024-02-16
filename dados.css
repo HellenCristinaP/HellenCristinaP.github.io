@@ -5,10 +5,7 @@ body {
 #tudo {
     color: #e6edf3;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
     padding: 5%;
     border-radius: 10px;
     background-color: #0d1117;
