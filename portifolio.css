@@ -43,10 +43,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #0d1117;
+    border: 1px solid #e6edf3;
+    color: #e6edf3;
+    transition: 0.5s;
+}
+
 #project {
     display: flex;
     gap: 10px;
-
 }
 
 .Projeto1 {
@@ -59,93 +65,106 @@ button {
     border-radius: 5px;
     padding: 10px 15px;
     box-shadow: 0 0 10px #e6edf3;
+
+    & i {
+        font-size: 60px;
+        margin: 5px;
+        color: #e6edf3;
+    }
+
+    & button {
+        margin: 7px;
+    }
 }
 
-#pyth {
-    font-size: 60px; /* Increase the font size */
-    margin: 5px;
-}
+/*Transição do hover
+
+.Projeto1:hover {
+    background-color: #e6edf3;
+    color: #0d1117;
+    border: 2px solid #0d1117;
+    border: 2px solid #e6edf3;
+    box-shadow: none;
+    transition: 0.5s;
+
+    & i {
+        font-size: 60px;
+        margin: 5px;
+        color: #0d1117;
+    }
+
+    & a {
+        color: #e6edf3;
+    }
+
+    & button {
+        background-color: #0d1117;
+        color: #e6edf3;
+        border-color: #0d1117;
+    }
+}*/
 
 .Projeto2 {
-    height: 80%;
+    height: 50%;
     width: 35%;
-    float: right;
-    background-color: #0d1117;
-    color: #e6edf3;
-    border: 2px solid #e6edf3;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #e6edf3;
-}
-
-#calcu {
-    color: #e6edf3;
-    margin: 5px;
-    font-size: 60px; /* Increase the font size */
-    margin-right: 5px; /* Add margin to create space */
-}
-
-a {
-    text-decoration: none;
-    color: #0d1117;
-}
-
-#redessociais {
-    /*quero todos os icones no meio, com um tamanho de 20 por 20 e margem entre eles também*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-i {
-    height: 20px;
-    width: 20px;
-    font-size: 20px;
-    color: #e6edf3;
-}
-
-
-.Projeto1 {
-    height: 15%;
-    width: 30%;
+    float: left;
     background-color: #0d1117;
     color: #e6edf3;
     border: 2px solid #e6edf3;
     border-radius: 5px;
     padding: 10px 15px;
-    margin: 5px;
     box-shadow: 0 0 10px #e6edf3;
-    transition: 0.5s;
+
+    & i {
+        font-size: 60px;
+        margin: 5px;
+        color: #e6edf3;
+    }
+
+    & button {
+        margin: 7px;
+    }
 }
 
-.Projeto2 {
-    background-color: #0d1117;
-    color: #e6edf3;
-    border: 2px solid #e6edf3;
-    border-radius: 5px;
-    padding: 10px 15px;
-    margin: 5px;
-    box-shadow: 0 0 10px #e6edf3;
-    transition: 0.5s;
-}
+/*Transição do hover
 
-a {
-    text-decoration: none;
+.Projeto2:hover {
+    background-color: #e6edf3;
     color: #0d1117;
-}
+    border: 2px solid #0d1117;
+    border: 2px solid #e6edf3;
+    box-shadow: none;
+    transition: 0.5s;
+
+    & i {
+        font-size: 60px;
+        margin: 5px;
+        color: #0d1117;
+    }
+
+    & a {
+        color: #e6edf3;
+    }
+
+    & button {
+        background-color: #0d1117;
+        color: #e6edf3;
+        border-color: #0d1117;
+    }
+}*/
 
 #redessociais {
     /*quero todos os icones no meio, com um tamanho de 20 por 20 e margem entre eles também*/
     display: flex;
+    color: #e6edf3;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
-}
 
-i {
-    height: 20px;
-    width: 20px;
-    font-size: 20px;
-    color: #e6edf3;
+    & i {
+        font-size: 25.5px;
+        margin: 5px;
+        color: #e6edf3;
+        border: none;
+    }
 }
