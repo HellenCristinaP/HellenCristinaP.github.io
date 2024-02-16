@@ -1,0 +1,60 @@
+body {
+    background-color: #0d1117;
+}
+
+#tudo {
+    margin-top: 5%;
+    color: #e6edf3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 4% 4%;
+    border-radius: 10px;
+    background-color: #0d1117;
+    box-shadow: 0 0 10px #e6edf3;
+}
+
+h1 {
+    margin-top: 1px;
+}
+
+img {
+    display: block;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2,5%;
+    margin-bottom: 5%;
+    height: 220px;
+    width: 205px;
+    float: right;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #e6edf3;
+    color: #0d1117;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#redessociais {
+    /*quero todos os icones no meio, com um tamanho de 20 por 20 e margem entre eles também*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+i {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    color: #e6edf3;
+}

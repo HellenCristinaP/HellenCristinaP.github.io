@@ -1,0 +1,55 @@
+/*. = classe
+# = div(id)*/
+
+body {
+    background-color: #0d1117;
+}
+
+#Formulario {
+    color: #e6edf3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    padding: 2% 5%;
+    border-radius: 10px;
+    background-color: #0d1117;
+    box-shadow: 0 0 10px #e6edf3;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+label {
+    color: #e6edf3;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#Enviar {
+    color: #0d1117;
+    padding: 5px 10px;
+    background-color: #e6edf3;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
