@@ -32,7 +32,7 @@ img {
     border-radius: 50%;
 }
 
-button a {
+button {
     background-color: #e6edf3;
     color: #0d1117;
     border: none;
@@ -40,6 +40,7 @@ button a {
     padding: 10px 15px;
     margin: 5px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 #project {
