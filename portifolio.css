@@ -39,8 +39,98 @@ button {
     border-radius: 5px;
     padding: 10px 15px;
     margin: 5px;
-    cursor: pointer;
     transition: 0.5s;
+}
+
+#project {
+    display: flex;
+    gap: 10px;
+
+}
+
+.Projeto1 {
+    height: 50%;
+    width: 35%;
+    float: left;
+    background-color: #0d1117;
+    color: #e6edf3;
+    border: 2px solid #e6edf3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px #e6edf3;
+}
+
+#pyth {
+    font-size: 60px; /* Increase the font size */
+    margin: 5px;
+}
+
+.Projeto2 {
+    height: 80%;
+    width: 35%;
+    float: right;
+    background-color: #0d1117;
+    color: #e6edf3;
+    border: 2px solid #e6edf3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #e6edf3;
+}
+
+#calcu {
+    color: #e6edf3;
+    margin: 5px;
+    font-size: 60px; /* Increase the font size */
+    margin-right: 5px; /* Add margin to create space */
+}
+
+a {
+    text-decoration: none;
+    color: #0d1117;
+}
+
+#redessociais {
+    /*quero todos os icones no meio, com um tamanho de 20 por 20 e margem entre eles também*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+i {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    color: #e6edf3;
+}
+
+
+.Projeto1 {
+    height: 15%;
+    width: 30%;
+    background-color: #0d1117;
+    color: #e6edf3;
+    border: 2px solid #e6edf3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    box-shadow: 0 0 10px #e6edf3;
+    transition: 0.5s;
+}
+
+.Projeto2 {
+    background-color: #0d1117;
+    color: #e6edf3;
+    border: 2px solid #e6edf3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    box-shadow: 0 0 10px #e6edf3;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: #0d1117;
 }
 
 #redessociais {
