@@ -117,33 +117,6 @@ button:hover {
     background-color: #200726;
 }
 
-/*Transição do hover
-
-.Projeto1:hover {
-    background-color: #e6edf3;
-    color: #0d1117;
-    border: 2px solid #0d1117;
-    border: 2px solid #e6edf3;
-    box-shadow: none;
-    transition: 0.5s;
-
-    & i {
-        font-size: 60px;
-        margin: 5px;
-        color: #0d1117;
-    }
-
-    & a {
-        color: #e6edf3;
-    }
-
-    & button {
-        background-color: #0d1117;
-        color: #e6edf3;
-        border-color: #0d1117;
-    }
-}*/
-
 .Projeto2 {
     height: 50%;
     width: 35%;
@@ -170,35 +143,7 @@ button:hover {
     background-color: #200726;
 }
 
-/*Transição do hover
-
-.Projeto2:hover {
-    background-color: #e6edf3;
-    color: #0d1117;
-    border: 2px solid #0d1117;
-    border: 2px solid #e6edf3;
-    box-shadow: none;
-    transition: 0.5s;
-
-    & i {
-        font-size: 60px;
-        margin: 5px;
-        color: #0d1117;
-    }
-
-    & a {
-        color: #e6edf3;
-    }
-
-    & button {
-        background-color: #0d1117;
-        color: #e6edf3;
-        border-color: #0d1117;
-    }
-}*/
-
 #redessociais {
-    /*quero todos os icones no meio, com um tamanho de 20 por 20 e margem entre eles também*/
     display: flex;
     color: #e6edf3;
     justify-content: center;
@@ -215,7 +160,7 @@ button:hover {
         margin: 5px;
         color: #e6edf3;
         border: none;
-        transition: 0,3s;
+        transition: 0,4s;
     }
 }
 
