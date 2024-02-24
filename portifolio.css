@@ -1,5 +1,39 @@
 body {
-    background-color: #0d1117;
+    background-color: #19021f;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 5.5px;
+    margin-top: 5px;
+
+    & #content {
+        background-color: #362346;
+        height: 25px;
+        width: 350px;
+        text-align: center;
+        padding-top: 5px;
+        border: solid 1px #e6edf3;
+        border-radius: 10px;
+    }
+
+    & a {
+        text-align: center;
+        text-decoration: none;
+        padding-right: 15px;
+        padding-left: 15px;
+        color: #e6edf3;
+        transition: 0.2s;
+    }
+}
+
+#container a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #F2E205;
+    transition: 0.2s;
 }
 
 #tudo {
@@ -9,14 +43,14 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
-    padding: 4% 4%;
+    padding: 2.5% 4% 2% 4%;
     border-radius: 10px;
-    background-color: #0d1117;
+    background-color: #200726;
     box-shadow: 0 0 10px #e6edf3;
 }
 
 h1 {
-    margin-top: 1px;
+    margin-top: 10px;
 }
 
 img {
@@ -30,11 +64,12 @@ img {
     width: 205px;
     float: right;
     border-radius: 50%;
+    box-shadow: 3px 4px 6px #e6edf3;
 }
 
 button {
     background-color: #e6edf3;
-    color: #0d1117;
+    color:#362346;
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
@@ -44,7 +79,7 @@ button {
 }
 
 button:hover {
-    background-color: #0d1117;
+    background-color: #200726;
     border: 1px solid #e6edf3;
     color: #e6edf3;
     transition: 0.5s;
@@ -59,12 +94,13 @@ button:hover {
     height: 50%;
     width: 35%;
     float: left;
-    background-color: #0d1117;
+    background-color: #ad92b6;
     color: #e6edf3;
     border: 2px solid #e6edf3;
     border-radius: 5px;
     padding: 10px 15px;
     box-shadow: 0 0 10px #e6edf3;
+    transition: 0.5s;
 
     & i {
         font-size: 60px;
@@ -75,6 +111,10 @@ button:hover {
     & button {
         margin: 7px;
     }
+}
+
+.Projeto1:hover {
+    background-color: #200726;
 }
 
 /*Transição do hover
@@ -108,7 +148,7 @@ button:hover {
     height: 50%;
     width: 35%;
     float: left;
-    background-color: #0d1117;
+    background-color: #ad92b6;
     color: #e6edf3;
     border: 2px solid #e6edf3;
     border-radius: 5px;
@@ -124,6 +164,10 @@ button:hover {
     & button {
         margin: 7px;
     }
+}
+
+.Projeto2:hover {
+    background-color: #200726;
 }
 
 /*Transição do hover
@@ -161,10 +205,21 @@ button:hover {
     align-items: center;
     gap: 10px;
 
+    p {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
     & i {
         font-size: 25.5px;
         margin: 5px;
         color: #e6edf3;
         border: none;
+        transition: 0,3s;
     }
+}
+
+#redessociais i:hover {
+    font-size: 35px;
+    transition: 0.5s;
 }
