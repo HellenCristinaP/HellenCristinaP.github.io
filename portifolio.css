@@ -70,7 +70,7 @@ img {
 button {
     background-color: #e6edf3;
     color:#362346;
-    border: none;
+    border: 0.5px solid #e6edf3;
     border-radius: 5px;
     padding: 10px 15px;
     margin: 5px;
@@ -80,7 +80,7 @@ button {
 
 button:hover {
     background-color: #200726;
-    border: 1px solid #e6edf3;
+    border: 0.5px solid #e6edf3;
     color: #e6edf3;
     transition: 0.5s;
 }
