@@ -1,88 +1,158 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./portifolio.css">
-    <script type="text/javascript" src="./portifolio.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <title>Portifolio</title>
-</head>
-<body>
-    <div id="tudo">
-        <div id="container">
-            <div id="content">
-                <a href="#intro">Sobre mim</a>
-                <a href="#project">Projetos</a>
-                <a href="#redessociais">Redes Sociais</a>
-            </div>
-        </div>
-        <img src="./appicon.ico" alt="Foto minha">
-        <div id="intro" margin-top: 50px;>
-            <h1>Hellen Cristina</h1>
-            <h3>Olá! Sou a Hellen, tenho 18 anos, sou estudante de programação. Atualmente estudo na UNIMES,
-                curso superior de tecnologia de Análise e Desenvolvimento de Sistemas e na Mk Academy de HeroDev, um curso de criação de jogos.</h3>
-            <p><em>Previsão de termino da Faculdade: Dez. 2024</em></p>
-        </div>
-        <br>
-        <div id="linguagens">
-            <p>Linguagens que utilizo: </p>
-            <ul>
-                <li><i class="fab fa-brands fa-html5"></i> HTML;</li>
-                <li><i class="fab fa-brands fa-css3-alt"></i> CSS;</li>
-                <li><i class="fab fa-brands fa-python"></i> PYTHON;</li>
-                <li><i class="devicon-csharp-plain"></i> C#.</li>
-                <!-- icone de javascript, quando estiver bom nele-->
-                <!--<i class="fab fa-brands fa-js"></i>-->
-            </ul>
+body {
+    background-color: #161616;
+}
 
-            <p>Linguagens de preferência: </p>
-            <ul>
-                <li><i class="fab fa-brands fa-python"></i> PYTHON.</li>
-            </ul>
-        </div>
-        <br>
-        <p>Estou atrás de oportunidades, quer saber mais? Baixe meu curriculo.</p>
-        <a href="./Currículo.pdf" download="Currículo.pdf">
-            <button><strong>Baixe o currículo por aqui!</strong></button>
-        </a>
-        <br>
-        <br>
-        <p>Quer deixar seu feedback ou proposta?</p>
-            <a href="./index1.html"><button><strong>Compartilhe comigo!</strong></button></a>
-        <br>
-        <br>
-        <p>Quer me ajudar no aprendizado ou verificar algo na empresa? Então deixe uma tabela de dados para eu análisar ao vivo!</p>
-        <a href="./index2.html">
-            <button><strong>Clique aqui!</strong></button>
-        </a>
-        <br>
-        <p>Projetos</p>
-        <div id="project">
-            <div class="Projeto1">
-                <i id="pyth" class="fab fa-brands fa-python"></i>
-                <p><strong>Jogo da forca</strong></p>
-                <p><strong>Status:</strong> Concluído</p>
-                <a href="https://github.com/HellenCristinaP/jogodaforca"><button>Repositório</button></a>
-                <a href="./jogodaforca.exe" dowload="jogodaforca.exe"><button>Ter-lo como executavel</button></a>
-            </div>
-            <div class="Projeto2">
-                <i id="calcu" class="fas fa-calculator"></i>
-                <p><strong>Calculadora</strong></p>
-                <p><strong>Status:</strong> <em>Em andamento (README)</em></p>
-                <a href="https://github.com/HellenCristinaP/calculadora.py">
-                    <button>Repositório</button>
-                </a>
-            </div>
-        </div>
-        <br>
-        <div id="redessociais">
-        <p>Minhas redes sociais</p>
-            <a href="https:www.linkedin.com/in/hellen-cristina-araújo-da-silva"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/hellen.cris.001/"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/HellenCristinaP"><i class="fab fa-github"></i></a>
-        </div>
-    </div>
-    </body>
-</html>
+#container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 5.5px;
+    margin-top: 5px;
+
+    & #content {
+        background-color: #161616;;
+        height: 25px;
+        width: 350px;
+        text-align: center;
+        padding-top: 5px;
+        border: solid 2px #3a71a0;
+        border-radius: 10px;
+    }
+
+    & a {
+        text-align: center;
+        text-decoration: none;
+        padding-right: 15px;
+        padding-left: 15px;
+        color: #e6edf3;
+        transition: 0.2s;
+    }
+}
+
+#container a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #3a71a0;
+    transition: 0.2s;
+}
+
+#tudo {
+    margin-top: 5%;
+    color: #e6edf3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 2.5% 4% 2% 4%;
+    border-radius: 10px;
+    border: 2px solid #88b3da;
+    background-color: #161616;
+    box-shadow: 0 0 10px #3a71a0;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+img {
+    display: block;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2,5%;
+    margin-bottom: 5%;
+    float: right;
+    border-radius: 5%;
+    box-shadow: 3px 4px 6px #3a71a0;
+}
+
+button {
+    background-color: #e6edf3;
+    color:#161616;;
+    border: 0.5px solid #e6edf3;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #161616;;
+    border: 0.5px solid #e6edf3;
+    color: #e6edf3;
+    transition: 0.5s;
+}
+
+#project {
+    display: flex;
+    gap: 10px;
+}
+
+.projetos {
+    height: 50%;
+    width: 35%;
+    float: left;
+    background-color: #252525;
+    color: #e6edf3;
+    border: 1px solid #3a71a0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px #3a71a0;
+    transition: 0.5s;
+
+    & i {
+        font-size: 60px;
+        margin: 5px;
+        color: #e6edf3;
+    }
+
+    & button {
+        margin: 7px;
+    }
+}
+
+.projetos:hover {
+    background-color: #161616;
+}
+
+#redessociais {
+    display: flex;
+    color: #e6edf3;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    & i {
+        font-size: 25.5px;
+        margin: 5px;
+        color: #e6edf3;
+        border: none;
+        transition: 0,4s;
+        width: 100%;
+    }
+}
+
+#redessociais i:hover {
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+
+    p {
+        margin: 5px 0;
+    }
+
+    & i {
+        width: 15px;
+    }
+}
+  
+  
