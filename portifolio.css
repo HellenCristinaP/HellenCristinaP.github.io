@@ -1,5 +1,5 @@
 body {
-    background-color: #19021f;
+    background-color: #161616;
 }
 
 #container {
@@ -10,12 +10,12 @@ body {
     margin-top: 5px;
 
     & #content {
-        background-color: #362346;
+        background-color: #161616;;
         height: 25px;
         width: 350px;
         text-align: center;
         padding-top: 5px;
-        border: solid 1px #e6edf3;
+        border: solid 2px #3a71a0;
         border-radius: 10px;
     }
 
@@ -32,7 +32,7 @@ body {
 #container a:hover {
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: #F2E205;
+    text-decoration-color: #3a71a0;
     transition: 0.2s;
 }
 
@@ -45,8 +45,9 @@ body {
     margin-bottom: 5%;
     padding: 2.5% 4% 2% 4%;
     border-radius: 10px;
-    background-color: #200726;
-    box-shadow: 0 0 10px #e6edf3;
+    border: 2px solid #88b3da;
+    background-color: #161616;
+    box-shadow: 0 0 10px #3a71a0;
 }
 
 h1 {
@@ -60,16 +61,14 @@ img {
     margin-right: 5px;
     margin-top: 2,5%;
     margin-bottom: 5%;
-    height: 220px;
-    width: 205px;
     float: right;
-    border-radius: 50%;
-    box-shadow: 3px 4px 6px #e6edf3;
+    border-radius: 5%;
+    box-shadow: 3px 4px 6px #3a71a0;
 }
 
 button {
     background-color: #e6edf3;
-    color:#362346;
+    color:#161616;;
     border: 0.5px solid #e6edf3;
     border-radius: 5px;
     padding: 10px 15px;
@@ -79,7 +78,7 @@ button {
 }
 
 button:hover {
-    background-color: #200726;
+    background-color: #161616;;
     border: 0.5px solid #e6edf3;
     color: #e6edf3;
     transition: 0.5s;
@@ -90,16 +89,16 @@ button:hover {
     gap: 10px;
 }
 
-.Projeto1 {
+.projetos {
     height: 50%;
     width: 35%;
     float: left;
-    background-color: #ad92b6;
+    background-color: #252525;
     color: #e6edf3;
-    border: 2px solid #e6edf3;
+    border: 1px solid #3a71a0;
     border-radius: 5px;
     padding: 10px 15px;
-    box-shadow: 0 0 10px #e6edf3;
+    box-shadow: 0 0 10px #3a71a0;
     transition: 0.5s;
 
     & i {
@@ -113,34 +112,8 @@ button:hover {
     }
 }
 
-.Projeto1:hover {
-    background-color: #200726;
-}
-
-.Projeto2 {
-    height: 50%;
-    width: 35%;
-    float: left;
-    background-color: #ad92b6;
-    color: #e6edf3;
-    border: 2px solid #e6edf3;
-    border-radius: 5px;
-    padding: 10px 15px;
-    box-shadow: 0 0 10px #e6edf3;
-
-    & i {
-        font-size: 60px;
-        margin: 5px;
-        color: #e6edf3;
-    }
-
-    & button {
-        margin: 7px;
-    }
-}
-
-.Projeto2:hover {
-    background-color: #200726;
+.projetos:hover {
+    background-color: #161616;
 }
 
 #redessociais {
@@ -161,8 +134,28 @@ button:hover {
         color: #e6edf3;
         border: none;
         transition: 0,4s;
+        width: 100%;
     }
 }
+
+#redessociais i:hover {
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+
+    p {
+        margin: 5px 0;
+    }
+
+    & i {
+        width: 15px;
+    }
+}
+  
+  
 
 #redessociais i:hover {
     font-size: 35px;
